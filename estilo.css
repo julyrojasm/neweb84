@@ -1,0 +1,143 @@
+    .ecabezado{
+        display: grid;
+        grid-template-columns: 200px auto 200px;
+    }
+    .enlace:link, .enlace:visited {
+        background-color: #477ff8;
+        color: black;
+        border: 2px solid rgb(109, 192, 244);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlace{
+        background-color: hsl(221, 81%, 56%);
+        color: aliceblue;
+        
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .enlace:hover, .enlace:active{
+        background-color: #7fc5ff;
+        color: antiquewhite;
+    }
+
+    .conteico{
+        display: flex;
+        justify-content: center;
+    }
+    .enlaces{
+        display: flex;
+        justify-content: flex-end;
+        font-family: calibri;
+        text-align: center;  
+    }
+
+    .sesion1{
+        background-image: url(imagenes/banner.webp);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textobanner{
+        background-color: whithe;
+        color: rgb(44, 203, 108);
+        border-color: aliceblue;
+        color-scheme: white;
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 7px blue;
+
+    }
+    .nosotros{
+        display: grid;
+        grid-template-columns: auto auto;
+        font-family: 'Edu SA Beginner', cursive;
+        column-gap: 50px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .nosotrosconte{
+        border: 2px solid rgb(122, 177, 249);
+        text-align: center;
+    }
+
+    .nosotrosconte1{
+        text-align: justify;
+
+    }
+    .nuestra{
+        text-align: center;
+        font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Noto Serif', serif;
+    }
+    .sesion2{
+        display: grid;
+        grid-template-columns: 300px auto;  
+        text-align: center;
+        font-size: 25px;
+        font-family: Franklin Gothic Medium;
+    }
+    .sesion2con{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+        vertical-align: text-bottom;
+        font-size: 20px;
+
+    }
+    .sesion3{
+        display: grid;
+        grid-template-columns: 300px auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: Franklin Gothic Medium;
+    }
+    .sesion3con{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+        vertical-align: text-bottom;
+        font-size: 20px;   
+    }
+
+    .imgcat{
+        border: 2px solid blue;
+        border-radius: 50px;
+    }
+    .imgdog{
+        border: 2px solid blue;
+        border-radius: 50px;
+    }
+
+
+    .sesion4{
+        display: grid;
+        grid-template-columns: 300px auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: Franklin Gothic Medium;
+    }
+    .sesion5{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .titulo{
+        background-color: #7fc5ff;
+        font-size: 50px;
+        text-align: center;
+    }
